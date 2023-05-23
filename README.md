@@ -1,27 +1,26 @@
-This repo is no longer maintained.
+This repository is no longer being actively maintained.
 
-# IdGen
+### IdGenerator
+This is a web application for creating ID cards for college students and faculty. It is developed using HTML, CSS, JQuery, Django Framework, Reportlab, and SQLite.
 
-Web app to create ID card for college students and faculty developed using HTML, CSS, JQuery, Django Framework, Reportlab, SQLite. 
+Users can enter the required details, and the application will generate a PDF version of the ID card. It provides features such as registration, editing, searching, deletion, template customization, and PDF generation for both students and faculty.
 
-Users can input the relevant details, as a result of which a pdf form of the ID card is created. There are options to register, edit, search, delete, change template of id card and generate pdfs for both students and faculty.
+Local Installation (Debian)
+Set up a virtual environment using virtualenv . (virtualenv).
+Activate the virtual environment with source bin/activate.
+Install Django 1.9 and Reportlab by running pip install Django==1.9 reportlab.
+Apply the database migrations with python manage.py makemigrations.
+Execute the migrations with python manage.py migrate.
+Start the server with python manage.py runserver.
 
-[Demo Link](http://idgen.pythonanywhere.com/)
-	
-### Local Installation (Ubuntu)
 
-1. `virtualenv .` ([virtualenv](https://www.caktusgroup.com/blog/2016/11/03/managing-multiple-python-projects-virtual-environments/))
-2. `source bin/activate`
-3. `pip install Django==1.9 reportlab`
-4. `python manage.py makemigrations`
-5. `python manage.py migrate`
-6. `python manage.py runserver`
 
 ### Usage
 
+
 1. Register Details
 
-![Register Details](https://user-images.githubusercontent.com/8125643/110128626-06383480-7ded-11eb-892a-9a1baffe2177.png)
+![Register Details][Demo Link](http://idgen.pythonanywhere.com/)(https://user-images.githubusercontent.com/8125643/110128626-06383480-7ded-11eb-892a-9a1baffe2177.png)
 
 2. Edit Template as per need
 
