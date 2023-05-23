@@ -20,7 +20,7 @@ Start the server with python manage.py runserver.
 
 1. Register Details
 
-![Register Details][Demo Link](http://idgen.pythonanywhere.com/)(https://user-images.githubusercontent.com/8125643/110128626-06383480-7ded-11eb-892a-9a1baffe2177.png)
+![Register Details](https://user-images.githubusercontent.com/8125643/110128626-06383480-7ded-11eb-892a-9a1baffe2177.png)
 
 2. Edit Template as per need
 
